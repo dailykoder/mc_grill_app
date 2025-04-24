@@ -1,30 +1,31 @@
 import Image from "next/image";
 
+const ROUTE_PREFIX = process.env.NEXT_PUBLIC_ROUTE_PREFIX ?? "";
 const showcaseOptions = [
   {
     step: "1",
     title: "Choose Your Base",
     description: "Select white rice, brown rice, glass noodles, or salad",
-    image: "/homepage/showcase/white-rice.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/bases/white-rice.avif`,
   },
   {
     step: "2",
     title: "Pick Your Protein",
     description:
       "Choose from bulgogi beef, spicy pork, galbi, tofu, or chicken",
-    image: "/homepage/showcase/bulgogi.webp",
+    image: `${ROUTE_PREFIX}/homepage/showcase/proteins/bulgogi.webp`,
   },
   {
     step: "3",
     title: "Add Toppings",
     description: "Select from fresh vegetables and Korean sides",
-    image: "/homepage/showcase/korean-toppings.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/korean-toppings.avif`,
   },
   {
     step: "4",
     title: "Choose Your Sauce",
     description: "Finish with gochujang, soy garlic, or sesame sauce",
-    image: "/homepage/showcase/gochujang.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/gochujang.jpg`,
   },
 ];
 

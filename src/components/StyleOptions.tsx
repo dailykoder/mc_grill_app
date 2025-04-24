@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 export default function StyleOptions() {
+  const ROUTE_PREFIX = process.env.NEXT_PUBLIC_ROUTE_PREFIX ?? "";
   return (
     <section className="container mx-auto mb-12 px-24 md:px-10">
       <div className="flex flex-col items-center gap-4">
@@ -18,7 +19,7 @@ export default function StyleOptions() {
         <div className="group relative h-96 overflow-hidden rounded-xl border sm:h-75">
           <div className="aspect-[16/9] h-full w-full overflow-hidden">
             <Image
-              src="/homepage/korean-bowl-figma.avif"
+              src={`${ROUTE_PREFIX}/homepage/korean-bowl-figma.avif`}
               alt="Korean Bowl"
               width={800}
               height={450}
@@ -39,7 +40,7 @@ export default function StyleOptions() {
         <div className="relative h-96 overflow-hidden rounded-xl border sm:h-75">
           <div className="h-full">
             <Image
-              src="/homepage/kimbap.jpg"
+              src={`${ROUTE_PREFIX}/homepage/kimbap.jpg`}
               alt="Kimbap Roll"
               width={400}
               height={300}

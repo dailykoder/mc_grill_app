@@ -1,25 +1,26 @@
 import Image from "next/image";
 
+const ROUTE_PREFIX = process.env.NEXT_PUBLIC_ROUTE_PREFIX ?? "";
 const BASE_OPTIONS = [
   {
     name: "White Rice",
     description: "Fluffy steamed short grain rice",
-    image: "/homepage/showcase/bases/white-rice.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/bases/white-rice.avif`,
   },
   {
     name: "Brown",
     description: "Hearty and nutritious whole grain option",
-    image: "/homepage/showcase/bases/brown-rice.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/bases/brown-rice.jpg`,
   },
   {
     name: "Glass Noodles",
     description: "Traditional Korean sweet potato noodles",
-    image: "/homepage/showcase/bases/glass-noodles.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/bases/glass-noodles.avif`,
   },
   {
     name: "Salad",
     description: "Fresh vegetable seasonal spring mix",
-    image: "/homepage/showcase/bases/salad.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/bases/salad.avif`,
   },
 ];
 
@@ -27,49 +28,49 @@ const PROTEIN_OPTIONS = [
   {
     name: "Bulgogi Beef",
     description: "Sweet and savory marinated beef",
-    image: "/homepage/showcase/proteins/bulgogi.webp",
+    image: `${ROUTE_PREFIX}/homepage/showcase/proteins/bulgogi.webp`,
   },
   {
     name: "Spicy Pork",
     description: "Sweet and spicy marinated pork",
-    image: "/homepage/showcase/proteins/spicy-pork.webp",
+    image: `${ROUTE_PREFIX}/homepage/showcase/proteins/spicy-pork.webp`,
   },
   {
     name: "Garlic Chicken",
     description: "Tender chicken in soy garlic sauce",
-    image: "/homepage/showcase/proteins/garlic-chicken.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/proteins/garlic-chicken.jpg`,
   },
   {
     name: "Tofu",
     description: "Seasoned and marinated tofu for vegetarian option",
-    image: "/homepage/showcase/proteins/tofu.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/proteins/tofu.jpg`,
   },
 ];
 
 const FRESH_TOPPINGS = [
   {
     name: "Kimchi",
-    image: "/homepage/showcase/toppings/kimchi.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/toppings/kimchi.avif`,
   },
   {
     name: "Bean Sprouts",
-    image: "/homepage/showcase/toppings/bean-sprouts.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/toppings/bean-sprouts.jpg`,
   },
   {
     name: "Spinach",
-    image: "/homepage/showcase/toppings/spinach.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/toppings/spinach.avif`,
   },
   {
     name: "Pickled Radish",
-    image: "/homepage/showcase/toppings/pickled-radish.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/toppings/pickled-radish.jpg`,
   },
   {
     name: "Radish Kimchi",
-    image: "/homepage/showcase/toppings/radish-kimchi.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/toppings/radish-kimchi.jpg`,
   },
   {
     name: "Cucumber",
-    image: "/homepage/showcase/toppings/cucumber.avif",
+    image: `${ROUTE_PREFIX}/homepage/showcase/toppings/cucumber.avif`,
   },
 ];
 
@@ -77,22 +78,22 @@ const SIGNATURE_SAUCES = [
   {
     name: "Gochujang",
     description: "Spicy Korean chili paste",
-    image: "/homepage/showcase/sauces/gochujang.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/sauces/gochujang.jpg`,
   },
   {
     name: "Soy Garlic",
     description: "Savory soy sauce with garlic",
-    image: "/homepage/showcase/sauces/soy-garlic.jpg",
+    image: `${ROUTE_PREFIX}/homepage/showcase/sauces/soy-garlic.jpg`,
   },
   {
     name: "Sesame Oil",
     description: "Nutty and aromatic finishing oil",
-    image: "/homepage/showcase/sauces/sesame-oil.webp",
+    image: `${ROUTE_PREFIX}/homepage/showcase/sauces/sesame-oil.webp`,
   },
   {
     name: "Citrus Soy",
     description: "Bright and tangy soy sauce",
-    image: "/homepage/showcase/sauces/citrus-soy.webp",
+    image: `${ROUTE_PREFIX}/homepage/showcase/sauces/citrus-soy.webp`,
   },
 ];
 

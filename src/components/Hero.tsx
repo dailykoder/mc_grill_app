@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 export default function Hero() {
+  const ROUTE_PREFIX = process.env.NEXT_PUBLIC_ROUTE_PREFIX ?? "";
   return (
     <main className="flex-1">
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/homepage/hero/mc_grill_hero.avif"
+            src={`${ROUTE_PREFIX}/homepage/hero/mc_grill_hero.avif`}
             alt="MC Grill Hero"
             fill
             className="object-cover brightness-[0.7]"

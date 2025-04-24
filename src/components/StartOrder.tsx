@@ -1,11 +1,12 @@
 import { Button } from "./ui/button";
 import Image from "next/image";
 export default function StartOrder() {
+  const ROUTE_PREFIX = process.env.NEXT_PUBLIC_ROUTE_PREFIX ?? "";
   return (
     <section className="relative mt-12 px-6 py-24 md:px-10">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/homepage/korean-restaurant.avif"
+          src={`${ROUTE_PREFIX}/homepage/korean-restaurant.avif`}
           alt="Korean restaurant interior"
           fill
           className="object-cover brightness-[0.4]"
