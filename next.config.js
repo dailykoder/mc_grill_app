@@ -5,6 +5,11 @@
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  content: [
+    // add this
+    "./@/components/**/*.{ts,tsx}",
+  ],
+};
 
 export default config;

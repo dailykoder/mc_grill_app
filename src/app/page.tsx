@@ -1,10 +1,12 @@
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import Showcase from "@/components/Showcase";
 
 export default function HomePage() {
   return (
-    <main>
+    <div className="flex flex-col">
       <Hero />
-    </main>
+      <Showcase />
+    </div>
   );
 }
