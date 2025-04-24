@@ -38,7 +38,7 @@ export default function Showcase() {
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
           Build Your Korean Meal
         </h2>
-        <p className="max-w-[700px] text-gray-500">
+        <p className="max-w-[700px] text-xl text-gray-500">
           Create your perfect meal in 4 simple steps
         </p>
       </div>
