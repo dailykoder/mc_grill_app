@@ -1,11 +1,10 @@
-const repo = "/mc_grill_app"; // Replace with your repo
+const repo = "/mc_grill_app";
 import "./src/env.js";
 
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
   basePath: repo,
-  // assetPrefix: isGithubActions ? `/${repo}/` : "",
   images: {
     unoptimized: true,
   },

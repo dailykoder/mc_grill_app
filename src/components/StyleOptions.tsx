@@ -18,7 +18,7 @@ export default function StyleOptions() {
         <div className="group relative h-96 overflow-hidden rounded-xl border sm:h-75">
           <div className="aspect-[16/9] h-full w-full overflow-hidden">
             <Image
-              src="/homepage/korean-bowl-figma.avif"
+              src="/mc_grill_app/homepage/korean-bowl-figma.avif"
               alt="Korean Bowl"
               width={800}
               height={450}
@@ -39,7 +39,7 @@ export default function StyleOptions() {
         <div className="relative h-96 overflow-hidden rounded-xl border sm:h-75">
           <div className="h-full">
             <Image
-              src="/homepage/kimbap.jpg"
+              src="/mc_grill_app/homepage/kimbap.jpg"
               alt="Kimbap Roll"
               width={400}
               height={300}
