@@ -6,7 +6,7 @@ export default function Hero() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/homepage/hero/mc_grill_hero.avif"
+            src="/mc_grill_app/homepage/hero/mc_grill_hero.avif"
             alt="MC Grill Hero"
             fill
             className="object-cover brightness-[0.7]"
