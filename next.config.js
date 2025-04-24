@@ -4,7 +4,7 @@ import "./src/env.js";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  basePath: repo,
+  basePath: "",
   images: {
     unoptimized: true,
   },

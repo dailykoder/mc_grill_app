@@ -5,7 +5,7 @@ export default function StartOrder() {
     <section className="relative mt-12 px-6 py-24 md:px-10">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/mc_grill_app/homepage/korean-restaurant.avif"
+          src="/homepage/korean-restaurant.avif"
           alt="Korean restaurant interior"
           fill
           className="object-cover brightness-[0.4]"

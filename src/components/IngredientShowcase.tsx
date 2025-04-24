@@ -4,22 +4,22 @@ const BASE_OPTIONS = [
   {
     name: "White Rice",
     description: "Fluffy steamed short grain rice",
-    image: "/mc_grill_app/homepage/showcase/bases/white-rice.avif",
+    image: "/homepage/showcase/bases/white-rice.avif",
   },
   {
     name: "Brown",
     description: "Hearty and nutritious whole grain option",
-    image: "/mc_grill_app/homepage/showcase/bases/brown-rice.jpg",
+    image: "/homepage/showcase/bases/brown-rice.jpg",
   },
   {
     name: "Glass Noodles",
     description: "Traditional Korean sweet potato noodles",
-    image: "/mc_grill_app/homepage/showcase/bases/glass-noodles.avif",
+    image: "/homepage/showcase/bases/glass-noodles.avif",
   },
   {
     name: "Salad",
     description: "Fresh vegetable seasonal spring mix",
-    image: "/mc_grill_app/homepage/showcase/bases/salad.avif",
+    image: "/homepage/showcase/bases/salad.avif",
   },
 ];
 
@@ -27,49 +27,49 @@ const PROTEIN_OPTIONS = [
   {
     name: "Bulgogi Beef",
     description: "Sweet and savory marinated beef",
-    image: "/mc_grill_app/homepage/showcase/proteins/bulgogi.webp",
+    image: "/homepage/showcase/proteins/bulgogi.webp",
   },
   {
     name: "Spicy Pork",
     description: "Sweet and spicy marinated pork",
-    image: "/mc_grill_app/homepage/showcase/proteins/spicy-pork.webp",
+    image: "/homepage/showcase/proteins/spicy-pork.webp",
   },
   {
     name: "Garlic Chicken",
     description: "Tender chicken in soy garlic sauce",
-    image: "/mc_grill_app/homepage/showcase/proteins/garlic-chicken.jpg",
+    image: "/homepage/showcase/proteins/garlic-chicken.jpg",
   },
   {
     name: "Tofu",
     description: "Seasoned and marinated tofu for vegetarian option",
-    image: "/mc_grill_app/homepage/showcase/proteins/tofu.jpg",
+    image: "/homepage/showcase/proteins/tofu.jpg",
   },
 ];
 
 const FRESH_TOPPINGS = [
   {
     name: "Kimchi",
-    image: "/mc_grill_app/homepage/showcase/toppings/kimchi.avif",
+    image: "/homepage/showcase/toppings/kimchi.avif",
   },
   {
     name: "Bean Sprouts",
-    image: "/mc_grill_app/homepage/showcase/toppings/bean-sprouts.jpg",
+    image: "/homepage/showcase/toppings/bean-sprouts.jpg",
   },
   {
     name: "Spinach",
-    image: "/mc_grill_app/homepage/showcase/toppings/spinach.avif",
+    image: "/homepage/showcase/toppings/spinach.avif",
   },
   {
     name: "Pickled Radish",
-    image: "/mc_grill_app/homepage/showcase/toppings/pickled-radish.jpg",
+    image: "/homepage/showcase/toppings/pickled-radish.jpg",
   },
   {
     name: "Radish Kimchi",
-    image: "/mc_grill_app/homepage/showcase/toppings/radish-kimchi.jpg",
+    image: "/homepage/showcase/toppings/radish-kimchi.jpg",
   },
   {
     name: "Cucumber",
-    image: "/mc_grill_app/homepage/showcase/toppings/cucumber.avif",
+    image: "/homepage/showcase/toppings/cucumber.avif",
   },
 ];
 
@@ -77,22 +77,22 @@ const SIGNATURE_SAUCES = [
   {
     name: "Gochujang",
     description: "Spicy Korean chili paste",
-    image: "/mc_grill_app/homepage/showcase/sauces/gochujang.jpg",
+    image: "/homepage/showcase/sauces/gochujang.jpg",
   },
   {
     name: "Soy Garlic",
     description: "Savory soy sauce with garlic",
-    image: "/mc_grill_app/homepage/showcase/sauces/soy-garlic.jpg",
+    image: "/homepage/showcase/sauces/soy-garlic.jpg",
   },
   {
     name: "Sesame Oil",
     description: "Nutty and aromatic finishing oil",
-    image: "/mc_grill_app/homepage/showcase/sauces/sesame-oil.webp",
+    image: "/homepage/showcase/sauces/sesame-oil.webp",
   },
   {
     name: "Citrus Soy",
     description: "Bright and tangy soy sauce",
-    image: "/mc_grill_app/homepage/showcase/sauces/citrus-soy.webp",
+    image: "/homepage/showcase/sauces/citrus-soy.webp",
   },
 ];
 

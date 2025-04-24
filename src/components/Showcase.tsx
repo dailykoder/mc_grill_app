@@ -5,26 +5,26 @@ const showcaseOptions = [
     step: "1",
     title: "Choose Your Base",
     description: "Select white rice, brown rice, glass noodles, or salad",
-    image: "/mc_grill_app/homepage/showcase/white-rice.avif",
+    image: "/homepage/showcase/white-rice.avif",
   },
   {
     step: "2",
     title: "Pick Your Protein",
     description:
       "Choose from bulgogi beef, spicy pork, galbi, tofu, or chicken",
-    image: "/mc_grill_app/homepage/showcase/bulgogi.webp",
+    image: "/homepage/showcase/bulgogi.webp",
   },
   {
     step: "3",
     title: "Add Toppings",
     description: "Select from fresh vegetables and Korean sides",
-    image: "/mc_grill_app/homepage/showcase/korean-toppings.avif",
+    image: "/homepage/showcase/korean-toppings.avif",
   },
   {
     step: "4",
     title: "Choose Your Sauce",
     description: "Finish with gochujang, soy garlic, or sesame sauce",
-    image: "/mc_grill_app/homepage/showcase/gochujang.jpg",
+    image: "/homepage/showcase/gochujang.jpg",
   },
 ];
 
