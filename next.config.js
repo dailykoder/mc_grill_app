@@ -1,17 +1,16 @@
-/**
- * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
- * for Docker builds.
- */
+const isGithubActions = process.env.GITHUB_ACTIONS === "true";
+const repo = "mc_grill_app"; // Replace with your repo
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {
+const nextConfig = {
+  reactStrictMode: true,
   output: "export",
-  content: [
-    // add this
-
-    "./@/components/**/*.{ts,tsx}",
-  ],
+  basePath: isGithubActions ? `/${repo}` : "",
+  assetPrefix: isGithubActions ? `/${repo}/` : "",
+  images: {
+    unoptimized: true,
+  },
 };
 
-export default config;
+export default nextConfig;
