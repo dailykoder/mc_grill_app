@@ -3,12 +3,12 @@ import { Button } from "./ui/button";
 export default function StyleOptions() {
   const ROUTE_PREFIX = process.env.NEXT_PUBLIC_ROUTE_PREFIX ?? "";
   return (
-    <section className="container mx-auto mb-12 px-24 md:px-10">
+    <section className="container mx-auto mb-12 px-6">
       <div className="flex flex-col items-center gap-4">
         <span className="rounded-full border bg-red-100 px-3 py-1 text-sm font-medium text-red-800">
           Our Options
         </span>
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+        <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
           Choose Your Style
         </h2>
         <p className="max-w-[700px] text-center text-xl text-gray-500">
