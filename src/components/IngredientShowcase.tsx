@@ -8,7 +8,7 @@ const BASE_OPTIONS = [
     image: `${ROUTE_PREFIX}/homepage/showcase/bases/white-rice.avif`,
   },
   {
-    name: "Brown",
+    name: "Brown Rice",
     description: "Hearty and nutritious whole grain option",
     image: `${ROUTE_PREFIX}/homepage/showcase/bases/brown-rice.jpg`,
   },
